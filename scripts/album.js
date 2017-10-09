@@ -1,4 +1,5 @@
-
+ /*eslint-env jquery*/
+/*eslint no-unused-vars: "error"*/
 var getSongNumberCell = function (number){
     return $('.song-item-number[data-song-number="' + number + '"]');
 };
