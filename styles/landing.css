@@ -32,18 +32,20 @@ body.landing {
      margin-bottom: 20px;
      text-align: center;
      height: 550px;
-     
+     box-sizing: border-box;
  }
 
 .collection-album-container img {
-    width: 80%;
+    max-width: 80%;
+    max-height: 450px;
  }
 
 .caption{
     background-color: #f0f0f5;
     margin: 0px 10%;
-    margin-top: -15px;
+    margin-top: -50px;
     padding: 1px;
+    padding-top: 30px;
 }
 
 .main-quote {
@@ -137,7 +139,7 @@ body.landing {
 }
 */
 #bridal-point{
-    background-image: url(../assets/images/bridals/Sarah-4.jpg);
+    background-image: url(../assets/images/bridals/Sarah4.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -146,7 +148,7 @@ body.landing {
 }
 
 #fashion-point{
-    background-image: url(../assets/images/fashion/Kayla-1.JPG);
+    background-image: url(../assets/images/fashion/Kayla1.JPG);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -154,7 +156,7 @@ body.landing {
     width: 31%;
 }
 #costume-point{
-    background-image: url(../assets/images/costume/Witch-1.jpg);
+    background-image: url(../assets/images/costume/Witch1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

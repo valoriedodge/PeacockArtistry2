@@ -12,7 +12,7 @@
 // $.each($('.point'), revealPoint);
 //};
 
-var favorites = [["Becca", "Bridals", "bridals/becca-3.jpg"], ["Jamie", "Costume", "costume/Jamie-1.jpg"], ["Liz", "Fashion","fashion/Liz-1.jpg"], ["Nicole", "Fashion","fashion/Nicole-1.jpg"], ["Alice","Bridals","bridals/Alice-2.jpg"], ["Callie", "Dance","occasion/Callie-2.jpg"]]
+var favorites = [["Becca", "Bridals", "bridals/becca3.jpg"], ["Jamie", "Costume", "costume/Jamie1.jpg"], ["Liz", "Fashion","fashion/Liz1.jpg"], ["Nicole", "Fashion","fashion/Nicole1.jpg"], ["Alice","Bridals","bridals/Alice2.jpg"], ["Callie", "Dance","occasion/Callie2.jpg"]]
 
 var buildCollectionItemTemplate = function(imageArr){
 
