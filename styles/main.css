@@ -14,16 +14,28 @@ html {
      min-height: 100%;         /* says the height of the body must be, at minimum, 100% of the window */
  }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a, a:visited, a:hover, a:active {
+  color: inherit;
+}
 .navbar {
-    position: relative;
+    position: fixed;
+    width: 100%;
     padding: 0.5rem;
-    background-color: rgba(101,18,95,0.5);
+    background-color: rgba(101,18,95);
+/*    opacity: .5;*/
     z-index: 1;
+    -webkit-transition: all 0.5s ease-in-out;
+     -moz-transition: all 0.5s ease-in-out;
+     transition: all 0.5s ease-in-out;
  }
  
  .navbar .logo {
      position: relative; /* positioning will be explained in a resource */
-     left: 2rem;
+     left: 1rem;
      cursor: pointer;
  }
 
@@ -52,9 +64,14 @@ html {
      text-decoration: none;
      cursor: pointer;
  }
+
+.navbar-scrolled {
+    background-color: rgba(101,18,95, .5);
+}
  
  .links-container .navbar-link:hover {
-     color: rgb(233,50,117);
+/*     color: rgb(233,50,117);*/
+     color: purple;
  }
 
  .container {
@@ -65,6 +82,36 @@ html {
  .container.narrow {
      max-width: 56rem;
  }
+.header{
+/*    background-color: rgb(58,23,63);*/
+    min-height: 300px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.header-title {
+    font-family: 'Tangerine', cursive;
+    font-size: 5rem;
+    margin-bottom: 0px;
+}
+
+footer {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    bottom: 0px;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    background-color: #f0f0f5;
+    color: rgba(101,18,95,1);
+    text-transform: uppercase;
+}
+
+.ion-social-twitter, .ion-social-facebook, .ion-social-instagram, ion-star {
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    padding-bottom: 10px;
+}
  
  /* Medium and small screens (640px) */
  @media (min-width: 640px) {
