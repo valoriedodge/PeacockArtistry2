@@ -44,6 +44,7 @@ body.landing {
     background-color: #f0f0f5;
     margin: 0px 10%;
     margin-top: -50px;
+/*    margin-bottom: 50px;*/
     padding: 1px;
     padding-top: 30px;
 }
@@ -108,9 +109,13 @@ body.landing {
     background: white;
     color: rgb(58,23,63);
 }
+.portfolio h1{
+    margin-bottom: 0px;
+}
 .portfolio h2 {
     clear:both;
     margin-bottom: 0px;
+    padding-top: 20px;
 }
 
 .selling-points-container {
@@ -148,7 +153,7 @@ body.landing {
 }
 
 #fashion-point{
-    background-image: url(../assets/images/fashion/KaylaMain.jpg);
+    background-image: url(../assets/images/fashion/Kayla1Main.jpg);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;

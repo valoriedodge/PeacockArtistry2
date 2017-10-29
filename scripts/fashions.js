@@ -1,7 +1,4 @@
 var buildCollectionItemTemplate = function(imageArr){
-    var name = "Sarah";
-    var type = "Fashion";
-    var space = " &#160| ";
     var template =
          '<div class="collection-album-container column third">'
         + '  <img alt ="cover" src=../assets/images/' + imageArr[2]
