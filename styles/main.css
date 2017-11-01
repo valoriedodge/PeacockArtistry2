@@ -39,31 +39,7 @@ a, a:visited, a:hover, a:active {
      cursor: pointer;
  }
 
-.navbar .links-container {
-     display: table;
-     position: absolute;
-     top: 0;
-     right: 0;
-     height: 100px;
-     color: white;
-     text-decoration: none;
- }
- 
- .links-container .navbar-link {
-     display: table-cell;
-     position: relative;
-     height: 100%;
-     padding-left: 1rem;
-     padding-right: 1rem;
-     vertical-align: middle;
-     color: white;
-     font-size: 0.625rem;
-     letter-spacing: 0.05rem;
-     font-weight: 700;
-     text-transform: uppercase;
-     text-decoration: none;
-     cursor: pointer;
- }
+
 
 .navbar-scrolled {
     background-color: rgba(101,18,95, .5);
@@ -173,6 +149,27 @@ footer {
     letter-spacing: 1rem;
     padding-bottom: 10px;
 }
+@media (min-width: 0px) {
+    .links-container .navbar-link {
+          display: none;
+     } 
+     .navbar .links-container {
+        display: none;
+     }
+    .collection-album-container {
+         position: relative;
+         margin-top: 30px;
+         margin-bottom: 20px;
+         text-align: center;
+         height: 350px;
+         box-sizing: border-box;
+     }
+
+    .collection-album-container img {
+        max-width: 80%;
+        max-height: 250px;
+     }
+}
  
  /* Medium and small screens (640px) */
  @media (min-width: 640px) {
@@ -189,13 +186,90 @@ footer {
      .column.half { width: 50%; }
      .column.third { width: 33.3%; }
      .column.fourth { width: 25%; }
-     .column.flow-opposite { float: right; }  
+     .column.flow-opposite { float: right; } 
+    .navbar .links-container {
+     display: table;
+     position: absolute;
+     top: 0;
+     right: 0;
+     height: 100px;
+     color: white;
+     text-decoration: none;
  }
+ 
+ .links-container .navbar-link {
+     display: table-cell;
+     position: relative;
+     height: 100%;
+     padding-left: 1rem;
+     padding-right: 1rem;
+     vertical-align: middle;
+     color: white;
+     font-size: 0.625rem;
+     letter-spacing: 0.05rem;
+     font-weight: 700;
+     text-transform: uppercase;
+     text-decoration: none;
+     cursor: pointer;
+ }
+ .collection-album-container {
+     position: relative;
+     margin-top: 30px;
+     margin-bottom: 30px;
+     text-align: center;
+     height: 350px;
+     box-sizing: border-box;
+ }
+
+.collection-album-container img {
+    max-width: 80%;
+    max-height: 250px;
+ }
+     
+}
  
  /* Large screens (1024px) */
  @media (min-width: 1024px) {
      html { font-size: 120%; }
    /* Style information will go here */
+     .navbar .links-container {
+         display: table;
+         position: absolute;
+         top: 0;
+         right: 0;
+         height: 100px;
+         color: white;
+         text-decoration: none;
+     }
+
+     .links-container .navbar-link {
+         display: table-cell;
+         position: relative;
+         height: 100%;
+         padding-left: 1rem;
+         padding-right: 1rem;
+         vertical-align: middle;
+         color: white;
+         font-size: 0.625rem;
+         letter-spacing: 0.05rem;
+         font-weight: 700;
+         text-transform: uppercase;
+         text-decoration: none;
+         cursor: pointer;
+     }
+      .collection-album-container {
+         position: relative;
+         margin-top: 30px;
+         margin-bottom: 20px;
+         text-align: center;
+         height: 550px;
+         box-sizing: border-box;
+     }
+
+    .collection-album-container img {
+        max-width: 80%;
+        max-height: 450px;
+     }
  }
 
 .clearfix::before,
